@@ -49,7 +49,7 @@ const Add = ({ update }) => {
 
   return (
     <div>
-      <Button style={{ backgroundColor: "orange" }} onClick={handleShow}>
+      <Button style={{ backgroundColor: "orange" ,border:"white 1px solid"}} onClick={handleShow}>
         Start Planning Now
       </Button>
 
