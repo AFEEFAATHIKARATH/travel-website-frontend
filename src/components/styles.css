@@ -1,0 +1,10 @@
+
+Copy code
+/* styles.css */
+.img-transition {
+  transition: transform 0.3s ease-in-out;
+}
+
+.img-transition:hover {
+  transform: scale(1.05);
+}

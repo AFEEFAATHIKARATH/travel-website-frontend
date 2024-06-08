@@ -1,0 +1,24 @@
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-section {
+  flex: 1;
+  text-align: center; /* Align content in the left section to the center */
+}
+
+.right-section {
+  flex: 1;
+  text-align: center; /* Align content in the right section to the center */
+}
+
+.background-image {
+  width: 100%;
+  height: auto;
+}
+
+.btn-get-started {
+  margin-top: 20px;
+}

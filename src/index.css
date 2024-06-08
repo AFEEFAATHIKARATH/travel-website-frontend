@@ -1,0 +1,25 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+  scroll-behavior: smooth;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* *{
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+} */
+ a {
+    color: inherit; /* Inherit the color from the parent element */
+    text-decoration: none; /* Remove the underline */
+}
+
+a:hover {
+    color:orange; /* Replace with your desired hover color */
+}
+button{
+  background-color: orange;
+  color: white;
+}

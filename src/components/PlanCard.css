@@ -1,0 +1,170 @@
+/* Plan Card Container */
+.plan-cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Plan Card */
+.plan-card {
+  height: 450px; /* Adjust height as needed */
+  margin: 10px; /* Add margin for spacing */
+}
+
+/* Card */
+.plan-card .card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+  height: 100%; /* Ensure card takes full height of plan-card */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Card Image Container */
+.plan-card .card-img-container {
+  width: 100%;
+  height: 200px; /* Fixed height for the image container */
+  overflow: hidden;
+}
+
+/* Card Image */
+.plan-card .card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the area without stretching */
+  transition: transform 0.3s ease;
+}
+
+.plan-card .card:hover .card-img {
+  transform: scale(1.1);
+}
+
+/* Place Info */
+.plan-card .place-info {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  z-index: 1;
+  transition: opacity 0.3s ease;
+}
+
+.plan-card .card:hover .place-info {
+  opacity: 0;
+}
+
+/* Details Overlay */
+.plan-card .details-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 10px;
+  transform: translateY(100%);
+  transition: transform 0.3s ease;
+}
+
+.plan-card .card:hover .details-overlay {
+  transform: translateY(0);
+}
+
+/* Pagination Controls */
+.pagination-controls {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.pagination-controls .btn {
+  margin: 0 5px;
+}
+
+.pagination-controls .btn.active {
+  font-weight: bold;
+  background-color: #ffaa00;
+  border-color: #ffaa00;
+  color: white;
+}
+
+/* Button Group */
+.plan-card .btn-group {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.plan-card .btn-group .btn {
+  padding: 10px;
+  margin: 5px;
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s;
+  background: none;
+  color: black;
+  border: none;
+}
+
+.plan-card .btn-group .btn:hover {
+  transform: scale(1.1);
+}
+
+.plan-card .btn-group .btn:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+/* Icon Text */
+.icon-text {
+  display: flex;
+  align-items: center;
+}
+
+/* Icon */
+.icon {
+  margin-right: 5px; /* Add space between icon and text */
+}
+
+/* Modal Header */
+.modal-header {
+  background-color: rgb(255, 111, 0); /* Change background color */
+  color: white; /* Text color */
+  border-bottom: none; /* Remove border */
+}
+
+/* Modal Title */
+.modal-title {
+  font-size: 1.5rem; /* Increase font size */
+}
+
+/* Modal Body */
+.modal-body {
+  background-color: #f8f9fa; /* Change background color */
+}
+
+/* Modal Footer */
+.modal-footer {
+  background-color: #f8f9fa; /* Change background color */
+  border-top: none; /* Remove border */
+}
+
+/* Close Button */
+.close {
+  color: white; /* Text color */
+  font-size: 1.5rem; /* Increase font size */
+}
+
+.close:hover {
+  color: #ffffffbb; /* Hover color */
+  text-decoration: none; /* Remove underline */
+}

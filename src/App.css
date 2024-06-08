@@ -1,0 +1,8 @@
+a {
+    color: inherit; /* Inherit the color from the parent element */
+    text-decoration: none; /* Remove the underline */
+}
+
+a:hover {
+    color:orange; /* Replace with your desired hover color */
+}

@@ -1,0 +1,11 @@
+.btn-primary {
+  background-color: #ffa500; /* Orange background color */
+  border-color: #ffa500; /* Border color */
+  color: #fff; /* White text color */
+}
+
+.btn-primary:hover {
+  background-color: #ff7c00 !important; /* Darker orange on hover */
+  border-color: #ff7c00 !important; /* Darker orange border on hover */
+  color: #fff !important; /* White text color on hover */
+}

@@ -1,0 +1,65 @@
+.footer {
+   padding-top: 70px;
+   padding-bottom: 30px;
+}
+
+.footer .logo img {
+   width: 60%;
+   margin-bottom: 1rem;
+}
+
+.footer .logo p {
+   color: var(--text-color);
+   font-size: 1rem;
+}
+
+.social__link span a {
+   text-decoration: none;
+   color: orange; /* Changed to orange */
+   font-size: 1rem;
+}
+
+.footer__link-title {
+   color: var(--heading-color);
+   margin-bottom: 1rem;
+}
+
+.footer__quick-links li a {
+   text-decoration: none;
+   color: var(--text-color);
+   font-size: 1rem;
+}
+
+.footer__quick-links a:hover {
+   color: var(--secondary-color);
+}
+
+.footer__quick-links h6 span i {
+   color: orange; /* Changed to orange */
+   font-size: 1rem;
+}
+
+.footer__quick-links h6 {
+   margin-bottom: 1rem;
+}
+
+.footer__quick-links p {
+   font-size: 1rem;
+}
+
+.copyright {
+   color: var(--text-color);
+   font-size: 1.2rem;
+}
+.quick__links{
+   text-decoration: none;
+}
+/* App.css */
+.orange-link {
+  color: orange;
+  text-decoration: none;
+}
+
+.orange-link:hover {
+  color: darkorange; /* Optional: change color on hover */
+}
