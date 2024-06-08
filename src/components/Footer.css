@@ -26,12 +26,12 @@
 
 .footer__quick-links li a {
    text-decoration: none;
-   color: var(--text-color);
+   color: black; /* Changed to black */
    font-size: 1rem;
 }
 
 .footer__quick-links a:hover {
-   color: var(--secondary-color);
+   color: orange; /* Changed to orange */
 }
 
 .footer__quick-links h6 span i {
@@ -51,10 +51,18 @@
    color: var(--text-color);
    font-size: 1.2rem;
 }
-.quick__links{
-   text-decoration: none;
+
+.link {
+  color: black;
+  text-decoration: none;
+  margin: 0 10px;
 }
-/* App.css */
+
+.link:hover {
+  color: orange; /* Optional: change color on hover */
+}
+
+/* Ensure these classes are applied properly */
 .orange-link {
   color: orange;
   text-decoration: none;

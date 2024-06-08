@@ -21,7 +21,7 @@ const quick__links = [
 
 const quick__links2 = [
   {
-   path: "/gallery",
+    path: "/gallery",
     display: "Gallery",
   },
   {
@@ -33,10 +33,7 @@ const quick__links2 = [
     display: "Register",
   },
 ];
-const linkStyle = {
-  color: "orange",
-  textDecoration: "none",
-};
+
 const Footer = () => {
   const year = new Date().getFullYear();
 
@@ -78,7 +75,9 @@ const Footer = () => {
             <ListGroup className="footer__quick-links">
               {quick__links.map((item, index) => (
                 <ListGroup.Item key={index} className="ps-0 border-0">
-                  <Link to={item.path}>{item.display}</Link>
+                  <Link to={item.path} className="link">
+                    {item.display}
+                  </Link>
                 </ListGroup.Item>
               ))}
             </ListGroup>
@@ -89,7 +88,9 @@ const Footer = () => {
             <ListGroup className="footer__quick-links">
               {quick__links2.map((item, index) => (
                 <ListGroup.Item key={index} className="ps-0 border-0">
-                  <Link to={item.path}>{item.display}</Link>
+                  <Link to={item.path} className="link">
+                    {item.display}
+                  </Link>
                 </ListGroup.Item>
               ))}
             </ListGroup>
